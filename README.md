@@ -64,4 +64,4 @@ We can memoize the search function so that we don't try to find the same combina
 
 `/data/dictionary.txt` is a file I constrcucted for a different project - substitute any dictionary file you like.
 
-It is a combination of the unix words file, online dictionary files, and the apple system dictionary. Uncommon, overly-scientific, and most short words were removed.
+It is a combination of the unix words file, online dictionary files, and the apple system dictionary. Most uncommon, overly-scientific, and short words were removed.
