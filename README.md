@@ -49,12 +49,11 @@ If we insert the words in a Trie, we can exit early on these kinds of combinatio
 ```bash
 # Using a Trie
 bun start "abcdefghijklmnopqrstuvwxyzaaaaaaaaeeeeeeeiiiiooouu"
-[7.98s] findWords
+# [7.98s] findWords
 
 # Using a Set
 bun start "abcdefghijklmnopqrstuvwxyzaaaaaaaaeeeeeeeiiiiooouu"
-
-does not finish in a reasonable amount of time
+# does not finish in a reasonable amount of time
 ```
 
 #### Memoization
