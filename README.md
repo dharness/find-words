@@ -59,3 +59,9 @@ bun start "abcdefghijklmnopqrstuvwxyzaaaaaaaaeeeeeeeiiiiooouu"
 #### Memoization
 
 We can memoize the search function so that we don't try to find the same combination twice. This is useful if we expect the input to have duplicate letters.
+
+### The Dictionary File
+
+`/data/dictionary.txt` is a file I constrcucted for a different project - substitute any dictionary file you like.
+
+It is a combination of the unix words file, online dictionary files, and the apple system dictionary. Uncommon, overly-scientific, and most short words were removed.
