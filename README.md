@@ -6,6 +6,8 @@ A utility to find all possible words that can be formed with a given set of lett
 
 Install dependencies and run the CLI with a string of letters as the first argument.
 
+Note: This repo uses [Bun](https://bun.sh/)
+
 ```bash
 bun install
 bun start "abcde"

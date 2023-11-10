@@ -2,6 +2,10 @@ import { Trie } from "./trie";
 
 const DICTIONARY_FILE_PATH = "./data/dictionary.txt";
 
+/**
+ * Loads a dictionary from a text file.
+ * Each line in the file should contain a single word.
+ */
 async function loadDictionary(path: string): Promise<Trie> {
   // Load the dictionary from a file.
   const file = Bun.file(path);
